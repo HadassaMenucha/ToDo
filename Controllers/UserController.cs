@@ -1,3 +1,4 @@
+using System.Reflection.Emit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,10 +21,33 @@ namespace ToDo.Controller
     public class UserController : ControllerBase
     {
         UserInterface us;
+        TokenService tokenService;
 
         public UserController(UserInterface us)
         {
             this.us = us;
+            this.tokenService= new TokenService();
+        }
+
+        [HttpPut]
+        [Route("[action]")]
+        public ActionResult<string> login([FromBody] User u){
+            var dt = DateTime.Now;
+
+            if (u.name != "HM")
+            {
+                return Unauthorized();
+            }
+
+            var claims = new List<Claim>
+            {
+                new Claim("type", "Admin"),
+            };
+
+            var token = this.tokenService.GetToken(claims);
+
+            return new OkObjectResult(this.tokenService.WriteToken(token));
+      
         }
 
         [HttpGet]
