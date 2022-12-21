@@ -1,0 +1,125 @@
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\appsettings.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.exe
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.deps.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.runtimeconfig.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.runtimeconfig.dev.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\ref\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\hw2.pdb
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.csproj.AssemblyReference.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.AssemblyInfoInputs.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.AssemblyInfo.cs
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.csproj.CoreCompileInputs.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.Manifest.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.xml
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\scopedcss\bundle\hw2.styles.css
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.RazorTargetAssemblyInfo.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.csproj.CopyComplete
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\ref\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.pdb
+Z:\B\טלר הדסה מנוחה\CORE\hw2\obj\Debug\net5.0\hw2.genruntimeconfig.cache
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.csproj.AssemblyReference.cache
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.AssemblyInfoInputs.cache
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.AssemblyInfo.cs
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.csproj.CoreCompileInputs.cache
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.dll
+E:\יד\CORE\hw2\obj\Debug\net5.0\hw2.pdb
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\appsettings.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.exe
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.deps.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.runtimeconfig.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.runtimeconfig.dev.json
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\ref\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\hw2.pdb
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.AssemblyInfoInputs.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.AssemblyInfo.cs
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.csproj.CoreCompileInputs.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.Manifest.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.xml
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\scopedcss\bundle\hw2.styles.css
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.RazorTargetAssemblyInfo.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.csproj.CopyComplete
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\ref\hw2.dll
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.pdb
+Z:\B\טלר הדסה מנוחה\CORE\hw2\server\obj\Debug\net5.0\hw2.genruntimeconfig.cache
+Z:\B\טלר הדסה מנוחה\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.csprojAssemblyReference.cache
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\appsettings.Development.json
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\appsettings.json
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.StaticWebAssets.xml
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.exe
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.deps.json
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.runtimeconfig.json
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.runtimeconfig.dev.json
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.dll
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\hw2.pdb
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CORE\hw2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.csproj.AssemblyReference.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.AssemblyInfoInputs.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.AssemblyInfo.cs
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.csproj.CoreCompileInputs.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\scopedcss\bundle\hw2.styles.css
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.Manifest.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.RazorTargetAssemblyInfo.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.csproj.CopyComplete
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.dll
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\refint\hw2.dll
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.pdb
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\hw2.genruntimeconfig.cache
+D:\CORE\hw2\SERVER\obj\Debug\net5.0\ref\hw2.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\appsettings.json
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.StaticWebAssets.xml
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.exe
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.deps.json
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.runtimeconfig.json
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.runtimeconfig.dev.json
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\hw2.pdb
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.csproj.AssemblyReference.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.AssemblyInfoInputs.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.AssemblyInfo.cs
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\scopedcss\bundle\hw2.styles.css
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\staticwebassets\hw2.StaticWebAssets.Manifest.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.RazorTargetAssemblyInfo.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.csproj.CopyComplete
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\refint\hw2.dll
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.pdb
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\hw2.genruntimeconfig.cache
+C:\Users\Public\Documents\Hadassa Menucha\CORE\hw2.2\SERVER\obj\Debug\net5.0\ref\hw2.dll

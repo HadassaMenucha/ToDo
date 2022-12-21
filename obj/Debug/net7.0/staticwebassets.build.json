@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "CbMARQkgNcBMTkVS1FjAVIkA2zOFRyRHW/+GOP11Zw0=",
+  "Source": "hw2",
+  "BasePath": "_content/hw2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw2\\wwwroot",
+      "Source": "hw2",
+      "ContentRoot": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\",
+      "BasePath": "_content/hw2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\app.js",
+      "SourceId": "hw2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\",
+      "BasePath": "_content/hw2",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\index.html",
+      "SourceId": "hw2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\",
+      "BasePath": "_content/hw2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\jquery.js",
+      "SourceId": "hw2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\wwwroot\\",
+      "BasePath": "_content/hw2",
+      "RelativePath": "jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.js"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+D:\CORE\SERVER\bin\Debug\net7.0\appsettings.Development.json
+D:\CORE\SERVER\bin\Debug\net7.0\appsettings.json
+D:\CORE\SERVER\bin\Debug\net7.0\package-lock.json
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.staticwebassets.runtime.json
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.exe
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.deps.json
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.runtimeconfig.json
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.dll
+D:\CORE\SERVER\bin\Debug\net7.0\hw2.pdb
+D:\CORE\SERVER\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.AssemblyReference.cache
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.AssemblyInfoInputs.cache
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.AssemblyInfo.cs
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.CoreCompileInputs.cache
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.hw2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.build.hw2.props
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.hw2.props
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.hw2.props
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets.build.json
+D:\CORE\SERVER\obj\Debug\net7.0\staticwebassets.development.json
+D:\CORE\SERVER\obj\Debug\net7.0\scopedcss\bundle\hw2.styles.css
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.CopyComplete
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.dll
+D:\CORE\SERVER\obj\Debug\net7.0\refint\hw2.dll
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.pdb
+D:\CORE\SERVER\obj\Debug\net7.0\hw2.genruntimeconfig.cache
+D:\CORE\SERVER\obj\Debug\net7.0\ref\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\appsettings.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\package-lock.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.staticwebassets.runtime.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.exe
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.deps.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.runtimeconfig.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\hw2.pdb
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.AssemblyReference.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.AssemblyInfoInputs.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.AssemblyInfo.cs
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.CoreCompileInputs.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.hw2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.build.hw2.props
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.hw2.props
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.hw2.props
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\scopedcss\bundle\hw2.styles.css
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.csproj.CopyComplete
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\refint\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.pdb
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\hw2.genruntimeconfig.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\obj\Debug\net7.0\ref\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
