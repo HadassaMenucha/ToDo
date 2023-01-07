@@ -12,8 +12,8 @@ namespace ToDo.Service
 {
     public  class TokenService
     {
-        private  SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ"));
-        private  string issuer = "https://fbi-demo.com";
+        private  SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("todotodotodotodotodotodo"));
+        private  string issuer = "https://localhst:5001.com";
         public  SecurityToken GetToken(List<Claim> claims) =>
             new JwtSecurityToken(
                 issuer,
@@ -28,7 +28,7 @@ namespace ToDo.Service
             {
                 ValidIssuer = issuer,
                 ValidAudience = issuer,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")),
+                IssuerSigningKey = key,
                 ClockSkew = TimeSpan.Zero // remove delay of token when expire
             };
 

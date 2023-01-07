@@ -18,6 +18,7 @@ namespace ToDo.Service
         public UserService()
         {
             this.users=new List<User>();
+            this.users.Add(new User("user0","123",true));
         }
 
         // private IWebHostEnvironment webHost;
