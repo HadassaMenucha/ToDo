@@ -9,10 +9,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 // using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.IdentityModel.Tokens.Jwt;
 using ToDo;
 using ToDo.Service;
 using Todo.interfaces;
 using ToDo.interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ToDo.Controller
 {
@@ -21,12 +23,11 @@ namespace ToDo.Controller
     public class UserController : ControllerBase
     {
         UserInterface us;
-        TokenService tokenService;
+        // TokenService tokenService;
 
         public UserController(UserInterface us)
         {
             this.us = us;
-            this.tokenService= new TokenService();
         }
 
         [HttpPut]
@@ -34,38 +35,45 @@ namespace ToDo.Controller
         public ActionResult<string> login([FromBody] User u){
             var dt = DateTime.Now;
 
-            if (u.name != "HM")
+            var claims = new List<Claim>();
+
+            if (u.isAdmin)
             {
-                return Unauthorized();
+                claims= new List<Claim>{
+                    new Claim("type","Admin")
+                } ;
+            }
+            else{
+                 claims= new List<Claim>{
+                    new Claim("type","Person")
+                } ;
             }
 
-            var claims = new List<Claim>
-            {
-                new Claim("type", "Admin"),
-            };
+            var token = TokenService.GetToken(claims);
 
-            var token = this.tokenService.GetToken(claims);
-
-            return new OkObjectResult(this.tokenService.WriteToken(token));
+            return new OkObjectResult(TokenService.WriteToken(token));
       
         }
 
         [HttpGet]
-        public IEnumerable<User> Get()
+        [Authorize(Policy="Admin")]
+        public IActionResult Get()
         {
-            return us.getAll();
+            return Ok(us.getAll());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<User> Get(int id)
+        [Authorize(Policy="Person")]
+        public IActionResult Get(int id)
         {
            var user = us.getUserId(id);
            if (user==null)
                 return NotFound();
-            return user;
+            return Ok(user);
         }
 
         [HttpPost]
+        [Authorize(Policy="Person")]
         public ActionResult Post(User user)
         {
             us.addUser(user);

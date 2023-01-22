@@ -10,11 +10,11 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ToDo.Service
 {
-    public  class TokenService
+    public static class TokenService
     {
-        private  SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ"));
-        private  string issuer = "https://fbi-demo.com";
-        public  SecurityToken GetToken(List<Claim> claims) =>
+        private static SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("todotodotodotodotodotodotodotodotodotodotodotodo"));
+        private static string issuer = "https://localhost:5001";
+        public static SecurityToken GetToken(List<Claim> claims) =>
             new JwtSecurityToken(
                 issuer,
                 issuer,
@@ -23,16 +23,21 @@ namespace ToDo.Service
                 signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
             );
 
-        public  TokenValidationParameters GetTokenValidationParameters() =>
+        public static  TokenValidationParameters GetTokenValidationParameters() =>
             new TokenValidationParameters
             {
+                ValidateIssuer=true,
+                ValidateAudience=true,
+                ValidateLifetime=true,
+                ValidateIssuerSigningKey=true,
+            
                 ValidIssuer = issuer,
                 ValidAudience = issuer,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")),
+                IssuerSigningKey = key,
                 ClockSkew = TimeSpan.Zero // remove delay of token when expire
             };
 
-        public  string WriteToken(SecurityToken token) =>
+        public static string WriteToken(SecurityToken token) =>
             new JwtSecurityTokenHandler().WriteToken(token);
     }
 }
