@@ -66,8 +66,8 @@ namespace hw2
 
             services.AddAuthorization(cfg =>
                 {
-                    cfg.AddPolicy("Admin", policy => policy.RequireClaim("type","Admin"));
-                    cfg.AddPolicy("Person", policy => policy.RequireClaim("type","Person"));
+                    cfg.AddPolicy("Admin", policy => policy.RequireClaim("type", "Admin"));
+                    cfg.AddPolicy("Person", policy => policy.RequireClaim("type", "Person"));
 
                 });
 
