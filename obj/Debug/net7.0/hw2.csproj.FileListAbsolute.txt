@@ -74,3 +74,12 @@ C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.Iden
 C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.csproj.AssemblyReference.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.AssemblyInfoInputs.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.AssemblyInfo.cs
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.csproj.CoreCompileInputs.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\refint\hw2.dll
+C:\Users\Hadassa Menucha\PROGRAMMING\CORE\SERVER6\obj\Debug\net7.0\hw2.pdb

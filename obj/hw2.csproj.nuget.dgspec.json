@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\hw2.csproj": {}
+    "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\hw2.csproj": {
+    "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\hw2.csproj",
+        "projectUniqueName": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj",
         "projectName": "hw2",
-        "projectPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\hw2.csproj",
+        "projectPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj",
         "packagesPath": "C:\\Users\\Hadassa Menucha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER\\obj\\",
+        "outputPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hadassa Menucha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,12 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
@@ -51,6 +51,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
             }
           },
           "imports": [
