@@ -6,14 +6,16 @@ namespace ToDo{
         private static int nextId=0;
 
         public int id {get; set;}
+        public int userid { get; set; }
         public string name {get; set;}
         public bool isDone {get; set;}
 
 
-        public myToDo(string name,bool isDone){
+        public myToDo(int userid,string name){
             this.id=nextId++;
+            this.userid=userid;
             this.name=name;
-            this.isDone=isDone;
+            this.isDone=false;
         }
 
 

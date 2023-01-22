@@ -1,20 +1,10 @@
-using System.Reflection.Emit;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-// using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.IdentityModel.Tokens.Jwt;
-using ToDo;
 using ToDo.Service;
-using Todo.interfaces;
 using ToDo.interfaces;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ToDo.Controller
 {
@@ -23,7 +13,6 @@ namespace ToDo.Controller
     public class UserController : ControllerBase
     {
         UserInterface us;
-        // TokenService tokenService;
 
         public UserController(UserInterface us)
         {
@@ -32,52 +21,65 @@ namespace ToDo.Controller
 
         [HttpPut]
         [Route("[action]")]
-        public ActionResult<string> login([FromBody] User u){
-            var dt = DateTime.Now;
+        public ActionResult<string> login(string name, string password)
+        {
+            // var dt = DateTime.Now;
+
+            User u=us.getUserId(name, password);
 
             var claims = new List<Claim>();
 
             if (u.isAdmin)
             {
-                claims= new List<Claim>{
+                claims = new List<Claim>{
                     new Claim("type","Admin")
-                } ;
+                };
             }
-            else{
-                 claims= new List<Claim>{
+            else
+            {
+                claims = new List<Claim>{
                     new Claim("type","Person")
-                } ;
+                };
             }
 
             var token = TokenService.GetToken(claims);
 
             return new OkObjectResult(TokenService.WriteToken(token));
-      
+
         }
 
         [HttpGet]
-        [Authorize(Policy="Admin")]
-        public IActionResult Get()
+        [Authorize(Policy = "Admin")]
+        public IActionResult GetAllUsers()
         {
             return Ok(us.getAll());
         }
 
-        [HttpGet("{id}")]
-        [Authorize(Policy="Person")]
-        public IActionResult Get(int id)
+        [HttpGet("{name},{password}")]
+        [Authorize(Policy = "Person")]
+        public IActionResult GetMyUser(string name, string password)
         {
-           var user = us.getUserId(id);
-           if (user==null)
+            var user = us.getUserId(name, password);
+            if (user == null)
                 return NotFound();
             return Ok(user);
         }
 
         [HttpPost]
-        [Authorize(Policy="Person")]
-        public ActionResult Post(User user)
+        [Authorize(Policy = "Admin")]
+        public ActionResult AddNewUser(User user)
         {
             us.addUser(user);
-            return CreatedAtAction(nameof(Post), new { id = user.id}, user);
+            return CreatedAtAction(nameof(AddNewUser), new { id = user.id }, user);
+        }
+
+
+        [HttpDelete]
+        [Authorize(Policy = "Admin")]
+        public IActionResult deleteUser(int id)
+        {
+            us.deleteUser(id);
+            return Ok();
         }
     }
 }

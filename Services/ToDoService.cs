@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Collections.Generic;
 using Todo.interfaces;
 
@@ -9,12 +10,16 @@ namespace ToDo.Service
         
        public  ToDoService(){
             myToDos=new List<myToDo>();
-            myToDos.Add(new myToDo("MyFirstToDo",false));
+            myToDos.Add(new myToDo(0,"MyFirstToDo"));
         }
 
         public List<myToDo> GetAllToDos()
         {
             return myToDos;
+        }
+
+        public List<myToDo> getToDoByUserId(int id){
+            return myToDos.FindAll(td=>td.userid==id);
         }
 
         public  myToDo getToDoById(int id){

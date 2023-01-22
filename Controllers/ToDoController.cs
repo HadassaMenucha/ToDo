@@ -1,17 +1,13 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using ToDo.Service;
-using ToDo;
 using Todo.interfaces;
 
 namespace ToDo.Controller
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize("Person")]
     public class ToDoController : ControllerBase
     {
         private ToDoInterface tdi;
@@ -22,13 +18,13 @@ namespace ToDo.Controller
         }
 
         [HttpGet]
-        public IEnumerable<myToDo> Get()
+        public IEnumerable<myToDo> GetMyToDos()
         {
            return tdi.GetAllToDos();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<myToDo> Get(int id)
+        public ActionResult<myToDo> GetTaskByid(int id)
         {
            var td = tdi.getToDoById(id);
            if (td==null)
@@ -37,7 +33,7 @@ namespace ToDo.Controller
         }
 
         [HttpPut("{id}")]
-        public ActionResult Update(int id, myToDo td)
+        public ActionResult UpdateTask(int id, myToDo td)
         {
            if(id!=td.id)
                 return BadRequest("id isn\"t the right todo");
@@ -47,15 +43,15 @@ namespace ToDo.Controller
 
             return NoContent();
         }
-         [HttpPost]
-        public ActionResult Post(myToDo td)
+        [HttpPost]
+        public ActionResult AddNewToDo(myToDo td)
         {
             tdi.AddToDo(td);
-            return CreatedAtAction(nameof(Post), new { id = td.id}, td);
+            return CreatedAtAction(nameof(AddNewToDo), new { id = td.id}, td);
         }
 
-          [HttpDelete]
-        public ActionResult Delete(int id) 
+        [HttpDelete("{id}")]
+        public ActionResult DeleteTask(int id) 
         {
             var td = tdi.getToDoById(id);
             if (td == null)

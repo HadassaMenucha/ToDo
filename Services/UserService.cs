@@ -20,35 +20,14 @@ namespace ToDo.Service
             this.users=new List<User>();
             this.users.Add(new User("user0","123",true));
         }
-
-        // private IWebHostEnvironment webHost;
-
-        private string filePath;
-
-        // public UserService(IWebHostEnvironment webHost)
-        // {
-        //     this.webHost = webHost;
-        //     this.filePath =
-        //         Path.Combine(webHost.ContentRootPath, "Data", "Users.json");
-        //     using (var f = File.OpenText(filePath))
-        //     {
-        //         users =
-        //             JsonSerializer
-        //                 .Deserialize<List<User>>(f.ReadToEnd(),
-        //                 new JsonSerializerOptions {
-        //                     PropertyNameCaseInsensitive = true
-        //                 });
-        //     }
-        // }
-
         public List<User> getAll()
         {
             return users;
         }
 
-        public User getUserId(int id)
+        public User getUserId(string name, string password)
         {
-            return users.FirstOrDefault(u=>u.id==id);
+            return users.FirstOrDefault(u=>u.name== name && u.password ==password);
         }
 
          public void addUser(User u)
@@ -56,5 +35,8 @@ namespace ToDo.Service
             users.Add(u);
         }
 
+        public void deleteUser(int id){
+            users=users.FindAll(u=>u.id!=id);
+        }
     }
 }

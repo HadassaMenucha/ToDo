@@ -67,7 +67,7 @@ namespace hw2
             services.AddAuthorization(cfg =>
                 {
                     cfg.AddPolicy("Admin", policy => policy.RequireClaim("type", "Admin"));
-                    cfg.AddPolicy("Person", policy => policy.RequireClaim("type", "Person"));
+                    cfg.AddPolicy("Person", policy => policy.RequireClaim("type", "Person", "Admin"));
 
                 });
 
@@ -111,8 +111,8 @@ namespace hw2
 
 
             app.UseHttpsRedirection();
-            // app.UseDefaultFiles();
-            // app.UseStaticFiles();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
