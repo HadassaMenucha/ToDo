@@ -1,7 +1,9 @@
+using System.Linq;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Todo.interfaces;
+using ToDo.Service;
 
 namespace ToDo.Controller
 {
@@ -20,7 +22,7 @@ namespace ToDo.Controller
         [HttpGet]
         public IEnumerable<myToDo> GetMyToDos()
         {
-           return tdi.GetAllToDos();
+           return tdi.getToDoByUserId(int.Parse(User.Claims.First(c=>(c.Type=="Id")).Value));
         }
 
         [HttpGet("{id}")]

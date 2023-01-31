@@ -21,11 +21,9 @@ namespace ToDo.Controller
 
         [HttpPut]
         [Route("[action]")]
-        public ActionResult<string> login(string name, string password)
+        public ActionResult<string> login([FromBody] User user)
         {
-            // var dt = DateTime.Now;
-
-            User u=us.getUserId(name, password);
+            User u=us.getUserId(user.name, user.password);
 
             var claims = new List<Claim>();
 
@@ -41,6 +39,8 @@ namespace ToDo.Controller
                     new Claim("type","Person")
                 };
             }
+
+            claims.Add(new Claim("Id" , u.id.ToString()));
 
             var token = TokenService.GetToken(claims);
 

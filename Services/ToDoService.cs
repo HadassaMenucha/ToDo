@@ -1,16 +1,36 @@
 using System.Linq;
 using System.Collections.Generic;
 using Todo.interfaces;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using System.Text.Json;
 
 namespace ToDo.Service
 {
 
     public class ToDoService : ToDoInterface{
         public static List<myToDo> myToDos {get; set;}
+
+         private IWebHostEnvironment webHost;
+        private string filePath;
         
-       public  ToDoService(){
-            myToDos=new List<myToDo>();
-            myToDos.Add(new myToDo(0,"MyFirstToDo"));
+       public  ToDoService(IWebHostEnvironment webHost){
+            this.webHost = webHost;
+            this.filePath = Path.Combine(webHost.ContentRootPath, "data", "Task.json");
+            using (var jsonFile = File.OpenText(filePath))
+            {
+                myToDos = JsonSerializer.Deserialize<List<myToDo>>(jsonFile.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+            }
+        }
+
+         private void saveToFile()
+        {
+            File.WriteAllText(filePath, JsonSerializer.Serialize(myToDos));
         }
 
         public List<myToDo> GetAllToDos()
@@ -28,6 +48,7 @@ namespace ToDo.Service
 
         public  void AddToDo(myToDo t){
             myToDos.Add(t);
+             saveToFile();
         }
 
          public  void DeleteToDo(int id){
@@ -37,6 +58,7 @@ namespace ToDo.Service
                 return;
 
             myToDos.Remove(td);
+             saveToFile();
         }
 
          public  bool Update(myToDo td)
@@ -46,7 +68,9 @@ namespace ToDo.Service
                 return false;
 
             myToDos[index] = td;
+            saveToFile();
             return true;
+             
         }
     }
 }

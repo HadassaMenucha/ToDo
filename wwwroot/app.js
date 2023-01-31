@@ -1,25 +1,28 @@
-let token;
 const signIn=document.getElementById('signIn');
 
 signIn.onclick=()=> {
-    var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Bearer "+token);
-    myHeaders.append("Content-Type", "application/json");
+var item = {
+    "name": document.getElementById('username').value,
+    "password": document.getElementById('password').value
+};
 
-    var raw = JSON.stringify({
-        "username": document.getElementById('username').value,
-        "password": document.getElementById('password').value
-    });
+        fetch("https://localhost:5001/User/login", {
+            method: 'PUT',
+            headers: {
+                // "Authorization": "Bearer "+token,
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(item)
+        })
+        .then(res=>res.text())
+        .then(res=>{
+            saveToken(res.split('"')[1]);
+            location.href="/user.html";
+        })
+        .catch(error => console.error('Unable to update item.', error));
+}
 
-    var requestOptions = {
-        method: 'PUT',
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow'
-    };
-
-    fetch("https://localhost:5001/User/login", requestOptions)
-        .then(response => response.text())
-        .then(result => {token = result; console.log(token); location.href='/user.html'})
-        .catch(error => console.log('error', error));
+saveToken=(token)=>{
+    sessionStorage.setItem('Token', token);
 }
