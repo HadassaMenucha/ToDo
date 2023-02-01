@@ -2,7 +2,7 @@ using System;
 using ToDo;
 using System.Collections.Generic;
 
-namespace Todo.interfaces
+namespace ToDo.interfaces
 {
     public interface ToDoInterface
     {
@@ -11,6 +11,7 @@ namespace Todo.interfaces
          myToDo getToDoById(int id);
          void AddToDo(myToDo t);
          void DeleteToDo(int id);
+         public void DeleteToDoByUserId(int id);
          bool Update(myToDo td);
     }
 }

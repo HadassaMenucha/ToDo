@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "24iTHiI75kaXK7A7WDKo3I2dk8whHbB0OSyumKGjjgK1J64okODYiwPZ/d40W90DrG7M9I5aNOaLcry/OaANkw==",
+  "dgSpecHash": "P7Y/OY3kklhIgRsxB8EpJ9D2k64zhZideuN2TiMn17ATtBnozl29PgovfrPrF0xcmm4r5lukY82IlTsnjdUp7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj",
+  "projectFilePath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6 - Final proj\\hw2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hadassa Menucha\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\Hadassa Menucha\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

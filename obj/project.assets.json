@@ -935,11 +935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj",
+      "projectUniqueName": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6 - Final proj\\hw2.csproj",
       "projectName": "hw2",
-      "projectPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\hw2.csproj",
+      "projectPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6 - Final proj\\hw2.csproj",
       "packagesPath": "C:\\Users\\Hadassa Menucha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6\\obj\\",
+      "outputPath": "C:\\Users\\Hadassa Menucha\\PROGRAMMING\\CORE\\SERVER6 - Final proj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hadassa Menucha\\AppData\\Roaming\\NuGet\\NuGet.Config",

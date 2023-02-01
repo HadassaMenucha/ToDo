@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Task Mangager</h1>
+    <a  href="/admin.html">manage users</a>
     <div id="container">
     </div>
     <button id="add">Add To Do</button>
@@ -19,6 +20,23 @@
     <div id="toDelete" style="visibility:hidden">
      id:
      <input type="number" name="id" id="id">
+     <button id="finalDelete">delete</button>
+     </div>
+
+     <button id="update">Update To Do</button>
+    <div id="toUpdate" style="visibility:hidden">
+     id:
+     <input type="number" name="updateId" id="updateId">
+     <input type="text" name="taskName" id="taskName" placeholder="new task name">
+     <input type="checkbox" name="isDone" id="isDone">
+     <button id="finalUpdate">update</button>
+     </div>
+
+     <button id="certainToDo">Get a certain to do</button>
+     <div id="toCertainId" style="visibility:hidden">
+        <input type="number" name="taskid" id="taskid">
+        <button id="showCertain">show</button>
+        <div id="showContainer"></div>
      </div>
  
      <!-- <script src="app.js"></script> -->

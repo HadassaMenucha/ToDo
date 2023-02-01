@@ -1,6 +1,6 @@
 using System.Linq;
 using System.Collections.Generic;
-using Todo.interfaces;
+using ToDo.interfaces;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using System.Text.Json;
@@ -26,6 +26,8 @@ namespace ToDo.Service
                 });
 
             }
+            myToDos.Add(new myToDo(0,"todo"));
+            saveToFile();
         }
 
          private void saveToFile()
@@ -59,6 +61,17 @@ namespace ToDo.Service
 
             myToDos.Remove(td);
              saveToFile();
+        }
+
+         public void DeleteToDoByUserId(int id){
+        //    myToDos.ForEach((td)=>{
+        //     if(td.userid==id)
+        //         myToDos.Remove(td);
+        //    });
+
+           myToDos= myToDos.FindAll((td)=>td.userid!=id);
+
+            saveToFile();
         }
 
          public  bool Update(myToDo td)

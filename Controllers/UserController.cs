@@ -13,10 +13,12 @@ namespace ToDo.Controller
     public class UserController : ControllerBase
     {
         UserInterface us;
+        ToDoInterface tdi;
 
-        public UserController(UserInterface us)
+        public UserController(UserInterface us, ToDoInterface tdi)
         {
             this.us = us;
+            this.tdi=tdi;
         }
 
         [HttpPut]
@@ -45,7 +47,6 @@ namespace ToDo.Controller
             var token = TokenService.GetToken(claims);
 
             return new OkObjectResult(TokenService.WriteToken(token));
-
         }
 
         [HttpGet]
@@ -78,6 +79,9 @@ namespace ToDo.Controller
         [Authorize(Policy = "Admin")]
         public IActionResult deleteUser(int id)
         {
+            if(id==0)
+                return BadRequest();
+            tdi.DeleteToDoByUserId(id);
             us.deleteUser(id);
             return Ok();
         }

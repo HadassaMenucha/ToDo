@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager / Admin</title>
+</head>
+<body>
+    <h1>Task Mangager</h1>
+    <div id="container">
+    </div>
+    <button id="add">Add User</button>
+    <div id="toAdd" style="visibility:hidden">
+         <input type="text" name="name" id="name" placeholder="user name">
+         <input type="password" name="pass" id="pass" placeholder="user password">
+         is admin:<input type="checkbox" name="admin" id="admin">
+         <button id="finalAdd">Add</button>
+    </div>
+    <button id="del">Delete User</button>
+    <div id="toDelete" style="visibility:hidden">
+     id:
+     <input type="number" name="id" id="id">
+     <button id="finalDelete">delete</button>
+     </div>
+
+     <!-- <button id="update">Update User</button>
+    <div id="toUpdate" style="visibility:hidden">
+     id:
+     <input type="number" name="updateId" id="updateId">
+     <input type="text" name="userName" id="userName" placeholder="new user name">
+     <input type="checkbox" name="isAdmin" id="isAdmin">
+     <button id="finalUpdate">update</button>
+     </div> -->
+
+     <script src="admin.js"></script>
+</body>
+</html>

@@ -9,7 +9,6 @@ var item = {
         fetch("https://localhost:5001/User/login", {
             method: 'PUT',
             headers: {
-                // "Authorization": "Bearer "+token,
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },

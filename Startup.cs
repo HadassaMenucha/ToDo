@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Todo.interfaces;
+using ToDo.interfaces;
 using ToDo.Service;
 // using Microsoft.IdentityWebApiAuthentication;
 
@@ -26,7 +26,7 @@ namespace hw2
     {
         public static IServiceCollection AddToDo(this IServiceCollection services)
         {
-            services.AddSingleton<Todo.interfaces.ToDoInterface, ToDoService>();
+            services.AddSingleton<ToDo.interfaces.ToDoInterface, ToDoService>();
             services.AddSingleton<ToDo.interfaces.UserInterface, UserService>();
             return services;
         }

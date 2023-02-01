@@ -2,8 +2,9 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Todo.interfaces;
+using ToDo.interfaces;
 using ToDo.Service;
+using System;
 
 namespace ToDo.Controller
 {
@@ -26,7 +27,7 @@ namespace ToDo.Controller
         }
 
         [HttpGet("{id}")]
-        public ActionResult<myToDo> GetTaskByid(int id)
+        public ActionResult<myToDo> GetTaskByid( int id)
         {
            var td = tdi.getToDoById(id);
            if (td==null)
@@ -34,28 +35,29 @@ namespace ToDo.Controller
             return td;
         }
 
-        [HttpPut("{id}")]
-        public ActionResult UpdateTask(int id, myToDo td)
+        [HttpPut]
+        public ActionResult UpdateTask([FromBody] myToDo td)
         {
-           if(id!=td.id)
-                return BadRequest("id isn\"t the right todo");
-            var res =tdi.Update(td);
+            td.userid = int.Parse(User.Claims.First(c=>c.Type=="Id").Value);
+            var res = tdi.Update(td);
             if(!res)
                return NotFound();
-
             return NoContent();
         }
         [HttpPost]
         public ActionResult AddNewToDo(myToDo td)
         {
+            td.userid= int.Parse(User.Claims.First(c=>c.Type=="Id").Value);
             tdi.AddToDo(td);
             return CreatedAtAction(nameof(AddNewToDo), new { id = td.id}, td);
         }
 
-        [HttpDelete("{id}")]
-        public ActionResult DeleteTask(int id) 
+        [HttpDelete]
+        public ActionResult DeleteTask([FromBody] int id) 
         {
             var td = tdi.getToDoById(id);
+            if(td.userid!= int.Parse(User.Claims.First(c=>(c.Type=="Id")).Value))
+                return Unauthorized();
             if (td == null)
                 return NotFound();
             tdi.DeleteToDo(id);         
