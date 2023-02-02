@@ -1,6 +1,6 @@
 # ToDo List
 Our Project in .Net Core
-This Project is ment for people to post their to do's.
+This Project is ment for people to manage their tasks's.
 There is a manager that could create and delete users
 
 A user or manager can create a task , delete or update it (only for himselt, obviously).
